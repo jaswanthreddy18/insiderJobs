@@ -86,7 +86,7 @@ const Signup = () => {
                     </div>
                     <div className='my-2 flex flex-col gap-2 text-l'>
                         <label>Password:</label>
-                        <input type="text" placeholder='Enter your password' className='border border-black p-2 rounded-[5px]' value={input.password} name = "password" onChange={changeEventHandler}/>
+                        <input type="password" placeholder='Enter your password' className='border border-black p-2 rounded-[5px]' value={input.password} name = "password" onChange={changeEventHandler}/>
                     </div>
                     <div className='py-5'>
                         <RadioGroup defaultValue="option-one" className='flex flex-row gap-5'>
