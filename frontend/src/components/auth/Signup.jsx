@@ -100,8 +100,8 @@ const Signup = () => {
                             </div>
                         </RadioGroup>
                     </div>
-                    <div className='p-3'> 
-                        <label htmlFor="profile">Profile:</label>
+                    <div className='p-3 flex flex-col gap-2'> 
+                        <Label htmlFor="profile">Profile:</Label>
                         <input type="file" accept='image/*' name="file" className='cursor-pointer' onChange={changeFileHandler}/>
                     </div>
                     {
