@@ -11,7 +11,7 @@ const app = express();
 dotenv.config();
 //middlewear
 app.use(cors({
-  origin: "https://insider-jobs-phx7.vercel.app/",
+  origin: "https://insider-jobs-phx7.vercel.app",
   credentials: true                            
 }));
 app.use(express.json());
