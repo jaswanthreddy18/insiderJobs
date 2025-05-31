@@ -17,7 +17,7 @@ const HeroSection = () => {
             <div className='flex flex-col gap-5 my-10 items-center '>
                 <span className=' mx-auto px-4 py-2 rounded-full bg-gray-100 text-[#F83002] font-medium '>No. 1 Job Hunt Website</span>
                 <h1 className='text-5xl font-bold'>Search, Apply & <br /> Get Your <span className='text-[#6A38C2]' >Dream Jobs</span></h1>
-                <p className='text-gray-400 w-[700px]'>Your dream job is out there — and it's waiting for someone exactly like you. Whether you're chasing a lifelong goal or looking to make your next bold move, we make it simple: search, apply, and take control of your career. The future you've imagined starts with one step. Take it today!</p>
+                <p className='text-gray-400 w-[800px]'>Your dream job is out there — and it's waiting for someone exactly like you. Whether you're chasing a lifelong goal or looking to make your next bold move, we make it simple: search, apply, and take control of your career. The future you've imagined starts with one step. Take it today!</p>
                 <div className='flex w-[40%] shadow-lg border rounded-full pl-4 mx-auto border-gray-300'>
                     <input type="text" placeholder='Find Your Dream Jobs' className='outline-none border-none w-full' onChange={(e) => setQuery(e.target.value)} />
                     <Button onClick={searchJobHandler} className='bg-[#6A38C2]  text-white hover:bg-[#7849cb] rounded-r-full ' >
