@@ -18,11 +18,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());  
 const PORT = process.env.PORT || 3000;
-app.get('/debug-env', (req, res) => {
-  res.json({
-    env: process.env, 
-  });
-});
 app.use("/api/v1/user", userRoute)
 app.use("/api/v1/company", companyRoute)
 app.use("/api/v1/job", jobRoute)
